@@ -4,4 +4,4 @@
  * combination of content from app.json, and all required package's package.json
  * files.  Customizations should be placed in app.json.
  */
-{"id":"3166f3e1-b059-4af2-8cd1-6359f6b1238a","js":[{"path":"touch/sencha-touch.js"},{"path":"bootstrap.js"},{"path":"app.js","update":"delta"}],"css":[{"path":"resources/css/sencha-touch.css","update":"delta","theme":"Default","platform":["phone","tablet","desktop"]}]}
+{"id":"3166f3e1-b059-4af2-8cd1-6359f6b1238a","js":[{"path":"touch/sencha-touch.js"},{"path":"bootstrap.js"},{"path":"app.js","update":"delta"}],"css":[{"path":"theme/sencha-touch-fc2755d2-08eb-47bc-90ca-9a3e66f83a97.css","update":"delta","theme":"Default","platform":["phone","tablet","desktop"]}]}

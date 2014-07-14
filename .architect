@@ -7,6 +7,7 @@
         "resource": true,
         "077ff75c-1551-4c16-b8b1-6c179ae7abaa": {
             "id": "077ff75c-1551-4c16-b8b1-6c179ae7abaa",
+            "expanded": false,
             "cn": [
                 {
                     "id": "459934a0-f727-461f-b233-a0993b726842",
@@ -32,6 +33,7 @@
         },
         "dc9a4e43-ca0f-4e76-b9bf-ccb94c325c5d": {
             "id": "dc9a4e43-ca0f-4e76-b9bf-ccb94c325c5d",
+            "expanded": false,
             "cn": [
                 {
                     "id": "62c8971d-3b8b-46c9-9b79-64fb1ad86ac8",
@@ -68,6 +70,22 @@
                 },
                 {
                     "id": "e054a189-69f0-4c90-999c-55b47094928e"
+                }
+            ]
+        },
+        "84824a89-4cd3-4211-b03c-b007d878788d": {
+            "id": "84824a89-4cd3-4211-b03c-b007d878788d",
+            "cn": [
+                {
+                    "id": "e3a7a891-a105-4fba-abf3-5982f4b412dd",
+                    "cn": [
+                        {
+                            "id": "08437cab-9d37-4492-ab9f-9487566a56e8"
+                        },
+                        {
+                            "id": "4b99d1e5-3a1b-4386-a50a-2a05ead07231"
+                        }
+                    ]
                 }
             ]
         },
@@ -137,13 +155,23 @@
         },
         "3d6a791c-08b6-448c-8d83-5c9b12d5cfd9": {
             "id": "3d6a791c-08b6-448c-8d83-5c9b12d5cfd9"
+        },
+        "fc2755d2-08eb-47bc-90ca-9a3e66f83a97": {
+            "id": "fc2755d2-08eb-47bc-90ca-9a3e66f83a97",
+            "cn": [
+                {
+                    "id": "8c2346af-fe47-477b-9206-88cef43c6b19"
+                }
+            ]
         }
     },
     "tabState": {
-        "openTabs": []
+        "openTabs": [
+            "84824a89-4cd3-4211-b03c-b007d878788d"
+        ]
     },
     "canvasState": {
-        "topInstance": "077ff75c-1551-4c16-b8b1-6c179ae7abaa"
+        "topInstance": "84824a89-4cd3-4211-b03c-b007d878788d"
     },
     "inspectorState": {
         "topInstance": null,

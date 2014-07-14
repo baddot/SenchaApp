@@ -33,7 +33,8 @@ Ext.application({
     views: [
         'MainView',
         'TaskList',
-        'FormPanel'
+        'FormPanel',
+        'MyFormPanel'
     ],
     controllers: [
         'Tasks'
@@ -42,7 +43,7 @@ Ext.application({
 
     launch: function() {
 
-        Ext.create('vertex.view.MainView', {fullscreen: true});
+        Ext.create('vertex.view.MyFormPanel', {fullscreen: true});
     }
 
 });

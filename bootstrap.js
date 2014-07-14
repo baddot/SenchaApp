@@ -644,6 +644,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "vertex.view.FormPanel": [],
   "vertex.view.Main": [],
   "vertex.view.MainView": [],
+  "vertex.view.MyFormPanel": [],
   "vertex.view.TaskList": []
 });
 Ext.ClassManager.addNameAliasMappings({
@@ -1375,6 +1376,7 @@ Ext.ClassManager.addNameAliasMappings({
   "vertex.view.MainView": [
     "widget.mainview"
   ],
+  "vertex.view.MyFormPanel": [],
   "vertex.view.TaskList": [
     "widget.tasklist"
   ]
