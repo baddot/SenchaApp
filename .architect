@@ -77,13 +77,13 @@
             "id": "84824a89-4cd3-4211-b03c-b007d878788d",
             "cn": [
                 {
-                    "id": "e3a7a891-a105-4fba-abf3-5982f4b412dd",
+                    "id": "d524c1af-69d2-479f-bdb4-411ef68d7d9a",
                     "cn": [
                         {
-                            "id": "08437cab-9d37-4492-ab9f-9487566a56e8"
+                            "id": "bfbbedb1-eb0d-4b43-9bb5-6598afc55162"
                         },
                         {
-                            "id": "4b99d1e5-3a1b-4386-a50a-2a05ead07231"
+                            "id": "8383d4d7-fd6e-42d1-9623-b84a2defbb87"
                         }
                     ]
                 }
@@ -167,7 +167,8 @@
     },
     "tabState": {
         "openTabs": [
-            "84824a89-4cd3-4211-b03c-b007d878788d"
+            "84824a89-4cd3-4211-b03c-b007d878788d",
+            "fc2755d2-08eb-47bc-90ca-9a3e66f83a97"
         ]
     },
     "canvasState": {
