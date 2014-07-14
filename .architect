@@ -5,27 +5,61 @@
         "component": true,
         "controller": true,
         "resource": true,
+        "f2b4b63c-1e75-4932-aca8-c761527854ef": {
+            "id": "f2b4b63c-1e75-4932-aca8-c761527854ef",
+            "cn": [
+                {
+                    "id": "b2542c6e-7a67-41ad-8124-75d3cc0c258b"
+                },
+                {
+                    "id": "87c065d3-a272-4cb8-a197-e679825fa479"
+                },
+                {
+                    "id": "cf6039a4-2da8-4eed-8797-5ec695938846"
+                },
+                {
+                    "id": "22adf383-5950-4e4d-b5f9-2459c52a7cfa"
+                },
+                {
+                    "id": "7ffb46bc-070c-4592-853d-d82fa44ef8ee"
+                },
+                {
+                    "id": "cbc144ab-506c-41e2-b736-09cca77c910e"
+                },
+                {
+                    "id": "16eb1fcc-aded-4622-8fe9-9b578707c0ac"
+                }
+            ]
+        },
         "4a44c781-7e8d-43db-a286-5d55a9a71a1a": {
             "id": "4a44c781-7e8d-43db-a286-5d55a9a71a1a"
         },
-        "3ad3b5c8-b230-4f6a-b295-2fbb6dc4e491": {
-            "id": "3ad3b5c8-b230-4f6a-b295-2fbb6dc4e491"
+        "904b1a76-4962-4be8-aa84-baad83678771": {
+            "id": "904b1a76-4962-4be8-aa84-baad83678771",
+            "cn": [
+                {
+                    "id": "c8340c8c-ed29-4ccc-a45b-0c4e9eda8b10"
+                }
+            ]
         }
     },
     "tabState": {
-        "openTabs": []
+        "openTabs": [
+            "f2b4b63c-1e75-4932-aca8-c761527854ef",
+            "904b1a76-4962-4be8-aa84-baad83678771"
+        ]
     },
     "canvasState": {
-        "topInstance": null
+        "topInstance": "f2b4b63c-1e75-4932-aca8-c761527854ef"
     },
     "inspectorState": {
-        "topInstance": null,
-        "selectedInstance": null
+        "topInstance": "904b1a76-4962-4be8-aa84-baad83678771",
+        "selectedInstance": "c8340c8c-ed29-4ccc-a45b-0c4e9eda8b10"
     },
     "codeState": {
-        "topInstance": null
+        "topInstance": "904b1a76-4962-4be8-aa84-baad83678771"
     },
-    "editMode": "design",
+    "editMode": "code",
     "userSettings": {
         "no-cmd": false
     }
