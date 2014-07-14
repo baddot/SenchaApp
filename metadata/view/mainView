@@ -1,0 +1,66 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "mainView",
+        "id": "mainView",
+        "itemId": "mainView"
+    },
+    "designerId": "585fb39b-6785-47d2-8fd7-a4a2fa740d97",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "mainViewTitle",
+                "docked": "top",
+                "id": "mainViewTitle",
+                "itemId": "mainViewTitle",
+                "title": "Search"
+            },
+            "designerId": "594ac37f-d2d9-478a-8f9d-5df92bc7e40d",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "plain",
+                        "docked": null,
+                        "text": "Logout",
+                        "ui": "plain"
+                    },
+                    "designerId": "5c041ceb-8a6e-400e-8b9d-c6c04972d079"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "align": "right",
+                        "designer|uiInterfaceName": "plain",
+                        "docked": null,
+                        "text": "History",
+                        "ui": "plain"
+                    },
+                    "designerId": "9ad5f81e-e508-48ec-bd79-163775b7964b"
+                }
+            ]
+        }
+    ]
+}

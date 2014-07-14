@@ -1,0 +1,49 @@
+{
+    "name": "vertex",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "f2b4b63c-1e75-4932-aca8-c761527854ef",
+            "585fb39b-6785-47d2-8fd7-a4a2fa740d97"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "4a44c781-7e8d-43db-a286-5d55a9a71a1a",
+            "904b1a76-4962-4be8-aa84-baad83678771"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

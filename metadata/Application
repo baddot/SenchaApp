@@ -1,0 +1,41 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "name": "vertex",
+        "requires": [
+            "Ext.Img"
+        ],
+        "views": [
+            "LoginFormPanel",
+            "mainView"
+        ]
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "document.addEventListener('deviceready', function () {",
+                    "    if (Ext.os.is.iOS && Ext.os.version.major >= 7) {",
+                    "        document.body.style.marginTop = \"20px\";",
+                    "        Ext.Viewport.setHeight(Ext.Viewport.getWindowHeight() - 20);",
+                    "    }",
+                    "});"
+                ]
+            },
+            "designerId": "981926d9-27ae-49e4-a095-2d5c8c593eda"
+        }
+    ]
+}

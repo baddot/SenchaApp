@@ -1,0 +1,63 @@
+{
+    "type": "defaultthemeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyDefaultTheme"
+    },
+    "designerId": "904b1a76-4962-4be8-aa84-baad83678771",
+    "storage": {
+        "needsCompile": true,
+        "simple": {},
+        "nameIndex": 1,
+        "varData": {}
+    },
+    "cn": [
+        {
+            "type": "themescss",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Scss Resource",
+                "implHandler": [
+                    "/* Main Theme */",
+                    "html, body{ background :#276d8b; }",
+                    "#ext-element-45 { background :#ffffff; }",
+                    "/* End Main Theme */",
+                    "",
+                    "/* Toolbar Theme */",
+                    ".x-toolbar-dark { background: #276d8b }",
+                    ".vertexThemeText { color:#455560; }",
+                    ".vertexBgText { background:#306e8c; color:#ffffff; font-size:16px; padding:10px; margin-top:10px; }",
+                    "/* End Toolbar Theme */",
+                    "",
+                    "#labelSignInText .x-innerhtml { margin:0 auto; padding-left:21px; margin-bottom:20px; margin-top:20px; font-size:16px; width:90%; }",
+                    "",
+                    "#loginEmail, #loginPassword, #rememberMeBtn { padding:5px 20px; width:90%; margin:0 auto; margin-bottom:20px; }",
+                    "",
+                    "#ext-element-17, #ext-element-23 { border:1px solid #276d8b; }",
+                    "",
+                    "/* remember me btn */",
+                    "#rememberMeBtn {  }",
+                    "#ext-element-30 { width:100%; }",
+                    "span#ext-element-31 { font-size:16px; font-weight:normal; }",
+                    "#ext-element-33 {  }",
+                    ".x-form-label { background :#FFFFFF; }",
+                    "/* End remember me btn */",
+                    "",
+                    "",
+                    "/* login btn */",
+                    "#loginBtn { width:90%; padding:15px; margin:0 auto; margin-top:20px; }",
+                    "/* end login btn */"
+                ]
+            },
+            "designerId": "c8340c8c-ed29-4ccc-a45b-0c4e9eda8b10"
+        }
+    ]
+}

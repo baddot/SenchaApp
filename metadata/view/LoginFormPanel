@@ -1,0 +1,145 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "vertexTheme"
+        ],
+        "designer|userClassName": "LoginFormPanel",
+        "scrollable": false
+    },
+    "designerId": "f2b4b63c-1e75-4932-aca8-c761527854ef",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "signInTitleBar",
+                "docked": "top",
+                "id": "signInTitleBar",
+                "title": "SignIn"
+            },
+            "designerId": "b2542c6e-7a67-41ad-8124-75d3cc0c258b"
+        },
+        {
+            "type": "Ext.Img",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "centered": false,
+                "designer|displayName": "displayLogo",
+                "height": 88,
+                "mode": "image",
+                "src": "resources/images/vertexlogo.jpg",
+                "width": null
+            },
+            "designerId": "87c065d3-a272-4cb8-a197-e679825fa479"
+        },
+        {
+            "type": "Ext.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "vertexThemeText"
+                ],
+                "designer|displayName": "labelSignInText",
+                "html": "Please sign in to the system",
+                "id": "labelSignInText",
+                "itemId": "labelSignInText",
+                "width": null
+            },
+            "designerId": "cf6039a4-2da8-4eed-8797-5ec695938846"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "loginEmail",
+                "docked": null,
+                "id": "loginEmail",
+                "itemId": "loginEmail",
+                "label": null,
+                "name": "field",
+                "placeHolder": "Email",
+                "required": true
+            },
+            "designerId": "22adf383-5950-4e4d-b5f9-2459c52a7cfa"
+        },
+        {
+            "type": "Ext.field.Password",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "loginPassword",
+                "id": "loginPassword",
+                "itemId": "loginPassword",
+                "label": null,
+                "name": "loginPassword",
+                "placeHolder": "Password",
+                "required": true
+            },
+            "designerId": "7ffb46bc-070c-4592-853d-d82fa44ef8ee"
+        },
+        {
+            "type": "Ext.field.Checkbox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "checked": true,
+                "clearIcon": false,
+                "designer|displayName": "rememberMeBtn",
+                "id": "rememberMeBtn",
+                "itemId": "rememberMeBtn",
+                "label": "Remember Me",
+                "labelWidth": "60%",
+                "name": "rememberMeBtn",
+                "value": "1",
+                "width": null
+            },
+            "designerId": "cbc144ab-506c-41e2-b736-09cca77c910e"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "vertexBgText"
+                ],
+                "designer|displayName": "loginBtn",
+                "id": "loginBtn",
+                "itemId": "loginBtn",
+                "text": "Sign In"
+            },
+            "designerId": "16eb1fcc-aded-4622-8fe9-9b578707c0ac"
+        }
+    ]
+}
