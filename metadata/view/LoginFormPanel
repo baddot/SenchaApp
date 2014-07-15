@@ -9,6 +9,8 @@
         "cls": [
             "vertexTheme"
         ],
+        "designer|initialView": true,
+        "designer|userAlias": "LoginFormPanel",
         "designer|userClassName": "LoginFormPanel",
         "scrollable": false
     },

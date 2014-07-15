@@ -28,6 +28,9 @@ Ext.application({
         'LoginFormPanel',
         'mainView'
     ],
+    controllers: [
+        'MyController'
+    ],
     name: 'vertex',
 
     launch: function() {
@@ -37,7 +40,7 @@ Ext.application({
                 Ext.Viewport.setHeight(Ext.Viewport.getWindowHeight() - 20);
             }
         });
-        Ext.create('vertex.view.mainView', {fullscreen: true});
+        Ext.create('vertex.view.LoginFormPanel', {fullscreen: true});
     }
 
 });

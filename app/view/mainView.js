@@ -15,13 +15,19 @@
 
 Ext.define('vertex.view.mainView', {
     extend: 'Ext.form.Panel',
+    alias: 'widget.mainView',
 
     requires: [
         'Ext.TitleBar',
-        'Ext.Button'
+        'Ext.Button',
+        'Ext.field.Search',
+        'Ext.Panel',
+        'Ext.Label',
+        'Ext.field.Select'
     ],
 
     config: {
+        cls: 'vertexTheme',
         id: 'mainView',
         itemId: 'mainView',
         items: [
@@ -30,10 +36,11 @@ Ext.define('vertex.view.mainView', {
                 docked: 'top',
                 id: 'mainViewTitle',
                 itemId: 'mainViewTitle',
-                title: 'Search',
+                title: 'SEARCH',
                 items: [
                     {
                         xtype: 'button',
+                        itemId: 'mybutton5',
                         ui: 'plain',
                         text: 'Logout'
                     },
@@ -42,6 +49,93 @@ Ext.define('vertex.view.mainView', {
                         align: 'right',
                         ui: 'plain',
                         text: 'History'
+                    }
+                ]
+            },
+            {
+                xtype: 'searchfield',
+                centered: false,
+                id: 'companyName',
+                itemId: 'companyName',
+                name: 'companyName',
+                required: true,
+                placeHolder: 'Company Name'
+            },
+            {
+                xtype: 'button',
+                cls: [
+                    'vertexBgText',
+                    'vertexBtn'
+                ],
+                id: 'searchBtn',
+                itemId: 'searchBtn',
+                text: 'SEARCH'
+            },
+            {
+                xtype: 'button',
+                id: 'advanceSearchBtn',
+                itemId: 'advanceSearchBtn',
+                ui: 'plain',
+                text: 'Advance Search'
+            },
+            {
+                xtype: 'panel',
+                height: '680px',
+                items: [
+                    {
+                        xtype: 'titlebar',
+                        docked: 'top',
+                        title: 'Advance Search',
+                        titleAlign: 'left',
+                        items: [
+                            {
+                                xtype: 'label',
+                                align: 'right',
+                                html: '&#x25BC;'
+                            }
+                        ]
+                    },
+                    {
+                        xtype: 'selectfield',
+                        label: 'Country',
+                        labelAlign: 'top',
+                        placeHolder: 'Optional'
+                    },
+                    {
+                        xtype: 'selectfield',
+                        label: 'Industry',
+                        labelAlign: 'top',
+                        placeHolder: 'Optional'
+                    },
+                    {
+                        xtype: 'selectfield',
+                        label: 'Deal Lead',
+                        labelAlign: 'top',
+                        placeHolder: 'Optional'
+                    },
+                    {
+                        xtype: 'selectfield',
+                        label: 'Decision',
+                        labelAlign: 'top',
+                        placeHolder: 'Optional'
+                    },
+                    {
+                        xtype: 'selectfield',
+                        label: 'Deal Status',
+                        labelAlign: 'top',
+                        placeHolder: 'Optional'
+                    },
+                    {
+                        xtype: 'selectfield',
+                        label: 'Co-Lead',
+                        labelAlign: 'top',
+                        placeHolder: 'Optional'
+                    },
+                    {
+                        xtype: 'textfield',
+                        label: 'Notes',
+                        labelAlign: 'top',
+                        placeHolder: 'Any Keywords'
                     }
                 ]
             }

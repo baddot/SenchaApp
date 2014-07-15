@@ -6,7 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
+        "cls": [
+            "vertexTheme"
+        ],
+        "designer|userAlias": "mainView",
         "designer|userClassName": "mainView",
         "id": "mainView",
         "itemId": "mainView"
@@ -25,7 +28,7 @@
                 "docked": "top",
                 "id": "mainViewTitle",
                 "itemId": "mainViewTitle",
-                "title": "Search"
+                "title": "SEARCH"
             },
             "designerId": "594ac37f-d2d9-478a-8f9d-5df92bc7e40d",
             "cn": [
@@ -39,6 +42,7 @@
                     "userConfig": {
                         "designer|uiInterfaceName": "plain",
                         "docked": null,
+                        "itemId": "mybutton5",
                         "text": "Logout",
                         "ui": "plain"
                     },
@@ -59,6 +63,207 @@
                         "ui": "plain"
                     },
                     "designerId": "9ad5f81e-e508-48ec-bd79-163775b7964b"
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Search",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "centered": false,
+                "designer|displayName": "companyName",
+                "docked": null,
+                "id": "companyName",
+                "itemId": "companyName",
+                "label": null,
+                "name": "companyName",
+                "placeHolder": "Company Name",
+                "required": true,
+                "width": null
+            },
+            "designerId": "8f5d7cfd-9d73-4e77-9732-dee8b754eec6"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "vertexBgText",
+                    "vertexBtn"
+                ],
+                "designer|displayName": "searchBtn",
+                "id": "searchBtn",
+                "itemId": "searchBtn",
+                "text": "SEARCH"
+            },
+            "designerId": "ebe32743-ef7d-4dfc-a410-9fdc0ba3f4d9"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "advanceSearchBtn",
+                "designer|uiInterfaceName": "plain",
+                "id": "advanceSearchBtn",
+                "itemId": "advanceSearchBtn",
+                "text": "Advance Search",
+                "ui": "plain"
+            },
+            "designerId": "885d7feb-f8cb-4f67-9e74-e14f0f95708a"
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": "680px"
+            },
+            "designerId": "7c8a728c-1892-407b-9323-55a41fb7da14",
+            "cn": [
+                {
+                    "type": "Ext.TitleBar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": null,
+                        "designer|displayName": "advanceSearchTitle",
+                        "docked": "top",
+                        "title": "Advance Search",
+                        "titleAlign": "left"
+                    },
+                    "designerId": "23ab4fca-fb7c-4d4b-be8b-df59f63084cd",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "align": "right",
+                                "designer|displayName": "labelRight",
+                                "html": "&#x25BC;"
+                            },
+                            "designerId": "531660d3-889e-4437-8ad0-ad684196f8f0"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.field.Select",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Country",
+                        "labelAlign": "top",
+                        "placeHolder": "Optional"
+                    },
+                    "designerId": "aea812e9-3fb1-4bde-aeb8-b86e553df387"
+                },
+                {
+                    "type": "Ext.field.Select",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Industry",
+                        "labelAlign": "top",
+                        "placeHolder": "Optional"
+                    },
+                    "designerId": "3a8b3140-fed8-4a28-ad61-05a98bf85b67"
+                },
+                {
+                    "type": "Ext.field.Select",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Deal Lead",
+                        "labelAlign": "top",
+                        "placeHolder": "Optional"
+                    },
+                    "designerId": "09028b45-c378-407f-a183-40ad9d64a111"
+                },
+                {
+                    "type": "Ext.field.Select",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Decision",
+                        "labelAlign": "top",
+                        "placeHolder": "Optional"
+                    },
+                    "designerId": "00b02825-db2c-4e60-aabf-0c84e5f1b974"
+                },
+                {
+                    "type": "Ext.field.Select",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Deal Status",
+                        "labelAlign": "top",
+                        "placeHolder": "Optional"
+                    },
+                    "designerId": "d6d20b71-1adc-4ccf-a3c7-1fbfa33605c5"
+                },
+                {
+                    "type": "Ext.field.Select",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Co-Lead",
+                        "labelAlign": "top",
+                        "placeHolder": "Optional"
+                    },
+                    "designerId": "b1bb7486-8d0b-4fd4-b3c6-1a0a448f7af0"
+                },
+                {
+                    "type": "Ext.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Notes",
+                        "labelAlign": "top",
+                        "placeHolder": "Any Keywords"
+                    },
+                    "designerId": "56e497c1-2536-4fb7-a03f-9bd2ad03c4ed"
                 }
             ]
         }

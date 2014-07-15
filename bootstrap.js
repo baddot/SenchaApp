@@ -638,8 +638,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "vertex.controller.MyController": [],
   "vertex.view.LoginFormPanel": [],
-  "vertex.view.Main": []
+  "vertex.view.Main": [],
+  "vertex.view.mainView": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1358,8 +1360,12 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "vertex.controller.MyController": [],
   "vertex.view.LoginFormPanel": [],
   "vertex.view.Main": [
     "widget.main"
+  ],
+  "vertex.view.mainView": [
+    "widget.mainView"
   ]
 });

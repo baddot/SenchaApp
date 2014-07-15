@@ -15,6 +15,7 @@
 
 Ext.define('vertex.view.LoginFormPanel', {
     extend: 'Ext.form.Panel',
+    alias: 'widget.LoginFormPanel',
 
     requires: [
         'Ext.TitleBar',
