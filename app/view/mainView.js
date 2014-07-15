@@ -97,42 +97,56 @@ Ext.define('vertex.view.mainView', {
                     },
                     {
                         xtype: 'selectfield',
+                        id: 'countryOption',
+                        itemId: 'countryOption',
                         label: 'Country',
                         labelAlign: 'top',
                         placeHolder: 'Optional'
                     },
                     {
                         xtype: 'selectfield',
+                        id: 'industryOption',
+                        itemId: 'industryOption',
                         label: 'Industry',
                         labelAlign: 'top',
                         placeHolder: 'Optional'
                     },
                     {
                         xtype: 'selectfield',
+                        id: 'dealLeadOption',
+                        itemId: 'dealLeadOption',
                         label: 'Deal Lead',
                         labelAlign: 'top',
                         placeHolder: 'Optional'
                     },
                     {
                         xtype: 'selectfield',
+                        id: 'decisionOptional',
+                        itemId: 'decisionOptional',
                         label: 'Decision',
                         labelAlign: 'top',
                         placeHolder: 'Optional'
                     },
                     {
                         xtype: 'selectfield',
+                        id: 'dealStatusOption',
+                        itemId: 'dealStatusOption',
                         label: 'Deal Status',
                         labelAlign: 'top',
                         placeHolder: 'Optional'
                     },
                     {
                         xtype: 'selectfield',
+                        id: 'coLeadOption',
+                        itemId: 'coLeadOption',
                         label: 'Co-Lead',
                         labelAlign: 'top',
                         placeHolder: 'Optional'
                     },
                     {
                         xtype: 'textfield',
+                        id: 'notesOption',
+                        itemId: 'notesOption',
                         label: 'Notes',
                         labelAlign: 'top',
                         placeHolder: 'Any Keywords'

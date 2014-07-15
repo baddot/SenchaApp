@@ -175,6 +175,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "countryOption",
+                        "id": "countryOption",
+                        "itemId": "countryOption",
                         "label": "Country",
                         "labelAlign": "top",
                         "placeHolder": "Optional"
@@ -189,6 +192,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "industryOption",
+                        "id": "industryOption",
+                        "itemId": "industryOption",
                         "label": "Industry",
                         "labelAlign": "top",
                         "placeHolder": "Optional"
@@ -203,6 +209,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "dealLeadOption",
+                        "id": "dealLeadOption",
+                        "itemId": "dealLeadOption",
                         "label": "Deal Lead",
                         "labelAlign": "top",
                         "placeHolder": "Optional"
@@ -217,6 +226,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "decisionOptional",
+                        "id": "decisionOptional",
+                        "itemId": "decisionOptional",
                         "label": "Decision",
                         "labelAlign": "top",
                         "placeHolder": "Optional"
@@ -231,6 +243,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "dealStatusOption",
+                        "id": "dealStatusOption",
+                        "itemId": "dealStatusOption",
                         "label": "Deal Status",
                         "labelAlign": "top",
                         "placeHolder": "Optional"
@@ -245,6 +260,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "coLeadOption",
+                        "id": "coLeadOption",
+                        "itemId": "coLeadOption",
                         "label": "Co-Lead",
                         "labelAlign": "top",
                         "placeHolder": "Optional"
@@ -259,6 +277,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "notesOption",
+                        "id": "notesOption",
+                        "itemId": "notesOption",
                         "label": "Notes",
                         "labelAlign": "top",
                         "placeHolder": "Any Keywords"

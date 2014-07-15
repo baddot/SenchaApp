@@ -55,7 +55,11 @@
                     "",
                     "#searchBtn { margin-top:20px; margin-bottom:20px;}",
                     "",
-                    "#ext-titlebar-1 { background:#5c9aa8; }"
+                    "#ext-titlebar-1 { background:#5c9aa8; }",
+                    "",
+                    ".x-form-label span { font-weight:normal!important;}",
+                    "",
+                    "#countryOption,#industryOption, #notesOption, #coLeadOption, #dealStatusOption, #decisionOptional, #dealLeadOption { font-size:16px; }"
                 ]
             },
             "designerId": "c8340c8c-ed29-4ccc-a45b-0c4e9eda8b10"
