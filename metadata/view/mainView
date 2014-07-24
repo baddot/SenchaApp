@@ -131,7 +131,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "height": "680px"
+                "designer|displayName": "advPanel",
+                "height": "680px",
+                "hidden": true,
+                "id": "advPanel",
+                "itemId": "advPanel"
             },
             "designerId": "7c8a728c-1892-407b-9323-55a41fb7da14",
             "cn": [
@@ -146,11 +150,31 @@
                         "container|align": null,
                         "designer|displayName": "advanceSearchTitle",
                         "docked": "top",
+                        "itemId": "mytitlebar2",
                         "title": "Advance Search",
                         "titleAlign": "left"
                     },
                     "designerId": "23ab4fca-fb7c-4d4b-be8b-df59f63084cd",
                     "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "align": "right",
+                                "designer|displayName": "closeBtn",
+                                "designer|uiInterfaceName": "plain",
+                                "docked": null,
+                                "id": "advancedCloseBtn",
+                                "itemId": "advancedCloseBtn",
+                                "text": "X",
+                                "ui": "plain"
+                            },
+                            "designerId": "41421565-2ffa-4f79-9be6-b0ab343ebe4b"
+                        },
                         {
                             "type": "Ext.Label",
                             "reference": {
@@ -161,6 +185,7 @@
                             "userConfig": {
                                 "align": "right",
                                 "designer|displayName": "labelRight",
+                                "hidden": true,
                                 "html": "&#x25BC;"
                             },
                             "designerId": "531660d3-889e-4437-8ad0-ad684196f8f0"

@@ -81,16 +81,29 @@ Ext.define('vertex.view.mainView', {
             {
                 xtype: 'panel',
                 height: '680px',
+                hidden: true,
+                id: 'advPanel',
+                itemId: 'advPanel',
                 items: [
                     {
                         xtype: 'titlebar',
                         docked: 'top',
+                        itemId: 'mytitlebar2',
                         title: 'Advance Search',
                         titleAlign: 'left',
                         items: [
                             {
+                                xtype: 'button',
+                                align: 'right',
+                                id: 'advancedCloseBtn',
+                                itemId: 'advancedCloseBtn',
+                                ui: 'plain',
+                                text: 'X'
+                            },
+                            {
                                 xtype: 'label',
                                 align: 'right',
+                                hidden: true,
                                 html: '&#x25BC;'
                             }
                         ]

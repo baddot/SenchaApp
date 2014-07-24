@@ -1361,7 +1361,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
   "vertex.controller.MyController": [],
-  "vertex.view.LoginFormPanel": [],
+  "vertex.view.LoginFormPanel": [
+    "widget.LoginFormPanel"
+  ],
   "vertex.view.Main": [
     "widget.main"
   ],

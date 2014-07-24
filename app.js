@@ -22,7 +22,8 @@ Ext.Loader.setConfig({
 Ext.application({
 
     requires: [
-        'Ext.Img'
+        'Ext.Img',
+        'Ext.Anim'
     ],
     views: [
         'LoginFormPanel',

@@ -59,7 +59,25 @@
                     "",
                     ".x-form-label span { font-weight:normal!important;}",
                     "",
-                    "#countryOption,#industryOption, #notesOption, #coLeadOption, #dealStatusOption, #decisionOptional, #dealLeadOption { font-size:16px; }"
+                    "#countryOption,#industryOption, #notesOption, #coLeadOption, #dealStatusOption, #decisionOptional, #dealLeadOption { font-size:18px; }",
+                    "",
+                    ".x-input-text { font-size:14px!important; padding-left:12px!important; }",
+                    "",
+                    ".fadein, .fadeout {",
+                    "    opacity: 0;",
+                    "    -moz-transition: opacity 0.4s ease-in-out;",
+                    "    -o-transition: opacity 0.4s ease-in-out;",
+                    "    -webkit-transition: opacity 0.4s ease-in-out;",
+                    "    transition: opacity 0.4s ease-in-out;",
+                    "}",
+                    ".fadein {",
+                    "    opacity: 1;",
+                    "}",
+                    "",
+                    "",
+                    "#ext-element-54, #ext-element-10 { font-size:16px!important; }",
+                    "",
+                    ""
                 ]
             },
             "designerId": "c8340c8c-ed29-4ccc-a45b-0c4e9eda8b10"
